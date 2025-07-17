@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Barlow", sans-serif;
+    background-color: #EFF6FF;
+    padding:  20px;
+    height: 100%;
+    font-size:medium;
+}
+.container{
+    width: 65%;
+    height: 90vh;
+    margin:  auto;
+    display: flex;
+    background-color:#fff;
+    position: relative;
+    box-sizing: border-box;
+}
+.f{
+    width: 20px;
+    height: 20px;
+    background-image:url(/facebook.svg) ;
+}
+
+.in{
+    width: 20px;
+    height: 20px;
+    
+    background-image:url(/facebook.svg) ;
+    
+
+}
+.logo{
+ width: 100px;
+    height: 100px;  
+    position: absolute; 
+    left: 40px;
+    bottom: 50;
+
+}
+.text{
+    color: #2A4A5C;
+    padding:60px 30px ;
+}
+
+.photo{
+   width: 55%;
+}
+h2{
+font-weight: 600;
+margin-bottom: 10px
+}
+  
+h3{
+    font-weight: 550;
+    margin-top: 50px ;
+    margin-bottom:10px ;
+    
+}
+.there{
+    margin-bottom: 30px;
+}
+.with-f{
+    display: flex;
+    background-color: #255A9B;
+    border:0px;
+    padding: 8px 15px;
+}
+.with-in{
+    display: flex;
+    background-color: #0076B6;
+    border: 0px;
+    padding: 8px 15px;
+}
+
+.registr{
+    color: #ccc;
+    margin-left: 15px;
+    
+}
+.social-buttons{
+    justify-content: space-between;
+}
+
+.social-buttons{
+    display: flex;
+}
+.with-f:hover{
+    cursor: pointer;
+    background-color: #0076B6;;
+}
+.with-in:hover{
+    cursor: pointer;
+   background-color: #255A9B;
+  
+    transition: 0.3s;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+input{
+    margin:5px;
+}
+.text-area:hover{
+border: 1px;
+}
+.create-acc{
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #0076B6;
+    border: 1px solid;
+}
+.create-acc:hover{
+    background-color: rgb(32, 85, 151);
+    cursor: pointer;
+}
+
+.line{
+    height: 1px;
+    width: 60px;
+    background: #ccc;
+}
+.or{
+font-size: 12px;
+margin: 0 10PX;
+}
+.or-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+ul{
+    margin: 40px;
+}
+.text-area{
+   margin: 15px;
+}
+.name{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+a{
+    color:#255A9B;
+}
+.tooltip{
+position: relative;
+display: inline-block;
+color:#0066cc;
+width: px;
+border-radius: 50%;
+border: #2A4A5C 2px;
+
+}
+.tool-text{
+visibility: hidden;
+width: 100px;
+background-color: #c0aeae;
+color: #201919;
+text-align: center;
+border-radius: 4px;
+position: absolute;
+padding: 2px;
+z-index: 1;
+bottom: 100%;
+left: 50%;
+transform: translateX(-50%);
+opacity: 0;
+font-size: 14px;
+}
+.tooltip:hover .tool-text {
+    visibility: visible;
+    opacity: 1;
+}
