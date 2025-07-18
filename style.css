@@ -25,14 +25,14 @@ body{
 .f{
     width: 20px;
     height: 20px;
-    background-image:url(/facebook.svg) ;
+    background-image:url(assets/facebook.svg) ;
 }
 
 .in{
     width: 20px;
     height: 20px;
     
-    background-image:url(/facebook.svg) ;
+    background-image:url(assets/linkedin.svg) ;
     
 
 }
