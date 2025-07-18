@@ -1,99 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Invest Together</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invest Together</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap"
+    />
   </head>
   <body>
     <div class="container">
       <div class="photo-logo">
-        <img class="main-photo" src="assets/main.jpg" alt="computer">
-        <img class="logo" src="assets/logo.svg" alt="logo">
+        <img class="main-photo" src="assets/main.jpg" alt="computer" />
+        <img class="logo" src="assets/logo.svg" alt="logo" />
       </div>
-    <div class="text">
+      <div class="text">
+        <h2>Get iintoo it today</h2>
+        <p class="there">There is no charge or obligation upon registration</p>
 
-  <h2>Get iintoo it today</h2>
-<p class="there">There is no charge or obligation upon registration</p>
+        <div class="social-buttons">
+          <button class="with-f">
+            <img class="f" src="assets/facebook.svg" alt="#" />
+            <span class="registr">Register with Facebook </span>
+          </button>
+          <button class="with-in">
+            <img class="in" src="assets/linkedin.svg" alt="#" />
+            <span class="registr">Register with Linkedin</span>
+          </button>
+        </div>
 
-  <div class="social-buttons">
-<button class="with-f"> <span class="f"></span> <span class="registr">Register with Facebook </span> </button>
-<button class="with-in"> <span class="in"></span><span class="registr">Register with Linkedin</span></button>
- </div>
+        <div class="or-divider">
+          <div class="line"></div>
+          <span class="or">OR</span>
+          <div class="line"></div>
+        </div>
 
- <div class="or-divider">
-    <div class="line"> </div>
-    <span class="or">OR</span>
-    <div class="line"> </div>
- </div>
+        <div class="text-area">
+          <div class="email-container">
+            <label>Email</label><input class="na-em" type="text" />
+          </div>
+          <div class="name-container">
+            <label>Name</label><input class="na-em" type="email" />
+          </div>
+        </div>
 
+        <h3>What type of investor are you?</h3>
+        <p class="select">Select the type of investor you are below</p>
 
-  <span class="text-area">
-     <input class="na-em" type="text" placeholder="Name">
-     <input class="na-em" type="email" placeholder="Email">
-  </span>
+        <ul>
+          <li>
+            <input type="radio" name="account-type" />
+            <label
+              >individual
+              <span class="tooltip">
+                <div class="mini-tooltip">i</div>
+                <span class="tool-text">
+                  Individual - An account for managing personal investments.
+                  Ideal for individuals investing in their own name.</span
+                >
+              </span>
+            </label>
+          </li>
 
-  <h3>What type of investor are you?</h3>
-<p class="select">Select the type of investor you are below</p>
+          <li>
+            <input type="radio" name="account-type" />
+            <label
+              >business
+              <span class="tooltip">
+                <div class="mini-tooltip">i</div>
+                <span class="tool-text"
+                  >Business An account for a company or organization. Designed
+                  to invest business funds under a legal entity.
+                </span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="account-type" />
+            <label
+              >IRA
+              <span class="tooltip">
+                <div class="mini-tooltip">i</div>
+                <span class="tool-text"
+                  >IRA (Individual Retirement Account) A retirement account with
+                  tax advantages. Helps you save for retirement with
+                  tax-deferred or tax-free growth.
+                </span>
+              </span>
+            </label>
+          </li>
 
-<ul>
-   <li>
-     <input type="radio" name="account-type">
-     <label>individual
-        <span class="tooltip">
-            !<span class="tool-text"> Individual -
-              An account for managing personal investments.
-              Ideal for individuals investing in their own name.</span>
+          <li>
+            <input type="radio" name="account-type" />
+            <label
+              >trust
+              <span class="tooltip">
+                <div class="mini-tooltip">i</div><span class="tool-text trust"
+                  >Trust An account held in the name of a trust. Used for estate
+                  planning, asset protection, and inheritance control.</span
+                >
+              </span>
+            </label>
+          </li>
+        </ul>
+
+        <span class="agree">
+          <input type="checkbox" name="checkbox" />
+          I agree to the receiving notications iintoo
+          <a href="#">view full terms</a>
         </span>
-    </label>
-  </li>
 
-<li>
-    <input type="radio"name="account-type">
-    <label>business
-         <span class="tooltip">
-            !<span class="tool-text">Business
-                    An account for a company or organization.
-                    Designed to invest business funds under a legal entity.
-            </span>
-        </span>
-    </label>
-</li>
-<li>
-    <input type="radio"name="account-type">
-    <label>IRA 
-        <span class="tooltip">
-          !<span class="tool-text">IRA (Individual Retirement Account)
-                        A retirement account with tax advantages.
-                      Helps you save for retirement with tax-deferred or tax-free growth.
-          </span>
-       </span>
-    </label>
-</li>
-
-<li>
-    <input type="radio"name="account-type">
-    <label>trust
-            <span class="tooltip">
-              !<span class="tool-text">Trust
-            An account held in the name of a trust.
-          Used for estate planning, asset protection, and inheritance control.</span>
-           </span>
-    </label>
-</li>
-</ul>
-
-<span class="agree">
-    <input type="checkbox" name="checkbox">
-       I agree to the receiving notications iintoo
-     <a href="#">view full terms</a>
-</span>
-
-<button class="create-acc">Create Account</button>
-
-       </div>
+        <button class="create-acc">Create Account</button>
       </div>
-   </body>
+    </div>
+  </body>
 </html>
