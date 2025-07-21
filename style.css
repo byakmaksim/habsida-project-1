@@ -22,10 +22,10 @@ body {
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  
 }
 .photo-logo {
   position: relative;
+  width: 50%;
 }
 
 .main-photo {
@@ -70,7 +70,7 @@ h2 {
   margin-left: 15px;
 }
 
-button img{
+button img {
   width: 20px;
   height: 20px;
 }
@@ -122,8 +122,7 @@ button img{
 .text-area {
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 19px;
 }
 .email-container,
 .name-container {
@@ -152,7 +151,7 @@ button img{
 
 h3 {
   font-weight: 550;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 10px;
 }
 
@@ -167,10 +166,6 @@ ul {
   margin: 40px 0px;
 }
 
-input {
-  margin: 5px;
-}
-
 input:hover {
   cursor: pointer;
 }
@@ -183,10 +178,10 @@ a {
   position: relative;
   display: inline-block;
   color: gray;
-  width: 4px;
 }
 
-.mini-tooltip {
+.tooltip::before {
+  content: "i";
   background-color: #fafdff;
   width: 9px;
   height: 9px;
@@ -197,7 +192,7 @@ a {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: -9px;
+  bottom: 0px;
 }
 
 .tool-text {
@@ -211,7 +206,7 @@ a {
   position: absolute;
   padding: 6px;
   z-index: 1;
-  bottom: 18px;
+  top: 11px;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -224,7 +219,7 @@ a {
 
 .tooltip:hover .tool-text {
   visibility: visible;
-  opacity:1;
+  opacity: 1;
   transition: 0.3s;
 }
 
