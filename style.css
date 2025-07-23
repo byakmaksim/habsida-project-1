@@ -245,6 +245,7 @@ a {
   }
   .photo-logo {
     position: relative;
+    width: 100%;
   }
 
   .main-photo {
